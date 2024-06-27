@@ -44,7 +44,9 @@ foreach ($posts as $key => $array){
     var_dump($key);
 
         foreach($array as $data){
-            var_dump($data);
+            var_dump($data['title']);
+            var_dump($data['author']);
+            var_dump($data['text']);
         };
 }
 ?>
